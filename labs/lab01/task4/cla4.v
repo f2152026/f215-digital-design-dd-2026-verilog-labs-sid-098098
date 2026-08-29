@@ -64,6 +64,7 @@ module cla4(
   xor # (1)(sum[0], p0, cin);
   xor # (1)(sum[1], p1, c1);
   xor # (1)(sum[2], p2, c2);
+  
   xor # (1)(sum[3], p3, c3);
   // (cout should be connected to c4.) Remember the delay on every gate.
 
